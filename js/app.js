@@ -36,6 +36,26 @@ function isValidStudentName(value){
     
 }
 
+function ValidStudentEmail(value){
+    const value = studentName.value.trim() >= 3;
+    if(! === ""){
+        nameError.textContent = "Enter Your Name";
+        return false;
+    }
+    
+}
+
+function isValidStudentName(value){
+    const value = studentName.value.trim() >= 3;
+    if(! === ""){
+        nameError.textContent = "Enter Your Name";
+        return false;
+    }
+    
+}
+
+
+
 function validateStudentInfo(name, studentNumber, email){
     const name = studentName.value.trim();
 
